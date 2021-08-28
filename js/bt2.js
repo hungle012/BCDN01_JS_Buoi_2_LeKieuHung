@@ -23,7 +23,8 @@ function SumAg() {
     console.log(num1,num2,num3,num4,num5);
 
     // tính giá trị trung bình của 5 chử số chia hết cho 5
-    var average = (parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4)+ parseInt(num5) / 5);
+    var sum = (parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4)+ parseInt(num5));
+    var average = sum / 5;
     console.log(average);
 
     // hiển thị trên UI
